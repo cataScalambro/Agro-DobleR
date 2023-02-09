@@ -1,0 +1,341 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+header{
+    width: auto;
+    height: 75px;
+    background-color: white;
+}
+#Encabezado{
+    width: 100%;
+    height: 75px;
+}
+.logo{ 
+    width: 20%;
+    height: 60px;
+    float: left;
+    padding: 7px;
+    left: 30px;
+}
+.link-paginas{
+    text-align: right;
+    width: auto;
+    height: 75px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    text-align: right;
+}
+nav ul li a{
+    color: #105C57;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+}
+nav ul li a:hover{
+    color: #178780;
+}
+
+/*main*/
+#inicio{
+    background-color: #105C57;
+}
+.contenedor{
+    width: 100% ;
+    height: 275px;
+    position: relative;
+    display: flex;
+}
+.contenedor img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    color: #9E7B34;
+    top: 2.5%; 
+    text-shadow: 5px 8px 8px black ;
+    text-align: center;
+    
+}
+.contenedor p{
+    position: absolute;
+    color: #9E7B34;
+    font-family: 'Segoe UI', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    top: 22.5%;
+    text-align: center;
+}
+.contenedor2{
+    width: 100%;
+    height: auto;
+}
+h2{
+    font-size: 30px;
+    height: 10px;
+    width: auto;
+    color: bisque;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+.contenedor2 p{
+    font-size: 20px;
+    color: bisque;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: justify; 
+}
+.imagen-inicio{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 350px;
+}
+.link-negocios1{
+    color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    box-shadow: 5px 8px 12px black;
+    background-color: #A8825C;
+    border-radius: 10px;
+    position: relative;
+    justify-content: space-between;
+    top: 140px;
+    left: -215px;
+}
+
+.link-negocios1:hover{
+    color: #5E491F;
+}
+.link-negocios2{
+    color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    box-shadow: 5px 8px 12px black;
+    background-color: #A8825C;
+    border-radius: 10px;
+    position: relative;
+    justify-content: space-between;
+    top: 140px;
+    left: -240px;
+}
+
+.link-negocios2:hover{
+    color: #5E491F;
+}
+
+/*footer*/
+
+footer{
+    width: auto;
+    height: 150px;
+    background-color: white;
+}
+
+#piePagina{
+    width: 100%;
+    height: 150px;
+}
+
+.logo-footer{
+    width: 110px;
+    height: 110px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+h3{
+    text-align: right;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    color: #105C57;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.titulo-menor{
+    text-align: right;
+    width: auto;
+    height: 18px;
+    color: #0D4F4B;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+    padding-right: 10px;
+}
+.info-relleno{
+    text-align: right;
+    width: auto;
+    height: 16px;
+    color: black;
+    font-size: 15px;
+    font-family:'Segoe UI', sans-serif;
+    padding-right: 10px;
+}
+
+/*main tambo*/
+#tambo{
+    background-color: #105C57;
+}
+.contenedor-tambo{
+    width: 100% ;
+    height: 275px;
+    position: relative;
+    display: flex;
+}
+.contenedor-tambo img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-tambo h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    color: #9E7B34;
+    text-shadow: 5px 8px 12px black ;
+    top: 2.5%;
+    text-align: center;
+}
+.contenedor3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: space-evenly;
+
+}
+.secciones-tambo h4{
+    color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    box-shadow: 5px 8px 12px black;
+    background-color: #A8825C;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+.secciones-tambo p{
+    font-size: 20px;
+    color: bisque;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: justify;
+
+}
+.secciones-tambo img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    align-content: center;
+    padding-left: 30px;
+}
+
+/*main Agricultura*/
+#agricultura{
+    background-color: #105C57;
+}
+.contenedor2 img{
+    margin: 20px;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+/*main Sumate a la Empresa*/
+#sumateEmpresa{
+    background-color: #105C57;
+}
+.contenedor4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+
+.formulario-contacto{
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 30px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.formulario-contacto input{
+    width: 1000px;
+}
+.formulario-contacto textarea{
+    height: 60px;
+    width: 1000px;
+}
+.formulario-contacto button{
+    width: fit-content;
+    height: fit-content;
+    border-color: black;
+    letter-spacing: 0.5px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+/*visitas educativas*/
+#visitasEducativas{
+    background-color: #105C57;
+}
+
+/*contacto*/
+#Contacto{
+    background-color: #105C57;
+
+}
