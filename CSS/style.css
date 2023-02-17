@@ -7,44 +7,33 @@
 /* Header */
 
 header{
-    width: auto;
-    height: 100px;   
+    height: 80px;  
 }
 
-#Encabezado{background-color: white !important;
+#Encabezado{
+    background-color: white !important;
 }
-
+#navbarNavDropdown{
+    justify-content: flex-end !important;
+}
 .logo{ 
     width: 90%;
-    height: 75px;
-    float: inline-start;
-    padding-left: 10px;
+    height: 60px;
+    padding-left: 25px;
 }
-.link-paginas{
-    text-align: right;
-    width: auto;
-    height: 75px;
-    padding-top: 25px;
-    box-sizing: border-box;
-}
-nav ul li{
-    list-style-type: none;
-    display: inline;
-    text-align: right;
-}
+
 nav ul li a{
-    color: #105C57;
-    font-size: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    font-family: 'Segoe UI', sans-serif;
+    color: #093f3c !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    justify-content: flex-end !important;
 }
+
 nav ul li a:hover{
-    color: #178780;
+    color: #549191 !important;
+    font-weight: bolder !important;
 }
+
 
 /*main*/
 #inicio{
