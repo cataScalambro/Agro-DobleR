@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="./Imagenes/favicon.png" type="image/x-icon">
     <title>Doble R SRL</title>
 </head>
@@ -55,9 +56,9 @@
             <p>Mas de 50 años acompañando al campo</p>
         </section>
         <section class="contenedor2">
-            <h2>NUESTRA HISTORIA</h2>
+            <h2>NUESTRA <span class="texto-negrita">HISTORIA</span></h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolores veniam magni temporibus nostrum atque, dignissimos ullam dolore tenetur quis beatae iusto assumenda odio, voluptatum ea sed eos similique voluptate.</p>
-            <div class="contenedor-imagenes">
+            <div class="contenedor-historia">
                 <img src="./Imagenes/Historia/Foto historia 1.JPG" class="rounded float-start" alt="Foto Ricardo Maiz">
                 <img src="./Imagenes/Historia/foto historia 2.jpg" class="rounded float-start" alt="Foto Novillos Holando">
                 <img src="./Imagenes/Historia/foto historia 3.JPG" class="rounded float-start" alt="Foto Catalina Soja">
@@ -67,19 +68,27 @@
             </div>
         </section>
         <section class="contenedor2">
-            <h2>NUESTROS NEGOCIOS</h2>
-            <div class="imagen-inicio">
-                <img src="./Imagenes/seccion-tambo2.png" alt="imagen-tambo-inicio">
-                <nav>
-                    <a class="link-negocios1" href="./Paginas/Tambo.html">TAMBO</a>
-                </nav>    
-                <img src="./Imagenes/seccion-agricultura.png" alt="imagen-agricultura-inicio">
-                <nav>
-                    <a class="link-negocios2" href="./Paginas/Agricultura.html">AGRICULTURA</a>
-                </nav>
-            </div>
+            <h2>NUESTROS <span class="texto-negrita">NEGOCIOS</span></h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolores veniam magni temporibus nostrum atque, dignissimos ullam dolore tenetur quis beatae iusto assumenda odio, voluptatum ea sed eos similique voluptate.</p>
+            <div class="contenedor-negocios">
+                <div class="contenedor-imagen-link">
+                    <img src="./Imagenes/Agricultura/seccion-agricultura.jpg" class="img-thumbnail" alt="imagen-agricultura-inicio"> 
+                    <button class="link-negocios" href="./Paginas/Tambo.html">AGRICULTURA</button>
+                </div>
+                <div class="contenedor-imagen-link">
+                    <img src="./Imagenes/Tambo/seccion-tambo.png" class="img-thumbnail" alt="imagen-tambo-inicio">
+                    <button class="link-negocios" href="./Paginas/Tambo.html">TAMBO</button>
+                </div>
+                <div class="contenedor-imagen-link">
+                    <img src="./Imagenes/Feedlot/seccion-feedlot.jpg" class="img-thumbnail" alt="imagen-feedlot-inicio">
+                    <button class="link-negocios" href="./Paginas/Agricultura.html">FEEDLOT</button>
+                </div>
+                <div class="contenedor-imagen-link">
+                    <img src="./Imagenes/Cria/seccion-cria.jpg" class="img-thumbnail" alt="imagen-cria-inicio">
+                    <button class="link-negocios" href="./Paginas/Agricultura.html">CRIA</button>
+                </div>
+            </div>    
         </section>
-
     </main>
     <footer>
         <div id="piePagina">
