@@ -35,8 +35,11 @@ nav ul li a:hover{
 }
 
 /*main*/
+body{
+    background-color:  #15362A;
+}
+
 #inicio{
-    background-color: #15362A;
     display: flex;
     flex-wrap: wrap;
 }
@@ -137,7 +140,7 @@ h2{
 
 .link-negocios{
     font-family: 'Roboto' sans-serif;
-
+    text-decoration: none;
     position: absolute;
     z-index: 1;
     color:  #386641;
@@ -148,17 +151,20 @@ h2{
     box-shadow: 5px 8px 12px black;
     background-color: white;
     border-radius: 10px;
-
+    transition: ease 1s;
 }
 .link-negocios:hover{
-    color: #5E491F;
+    cursor: pointer;
+    color: white;
+    background-color: #386641;
+    transform: scale(1.15, 1.15);
+
+
 }
 
 
 /*main tambo*/
-#tambo{
-    background-color: #105C57;
-}
+
 .contenedor-tambo{
     width: 100% ;
     height: 275px;
@@ -225,9 +231,7 @@ h2{
 }
 
 /*main Agricultura*/
-#agricultura{
-    background-color: #105C57;
-}
+
 .contenedor2 img{
     margin: 20px;
     align-content: center;
@@ -236,9 +240,7 @@ h2{
 }
 
 /*main Sumate a la Empresa*/
-#sumateEmpresa{
-    background-color: #105C57;
-}
+
 .contenedor4{
     width: 100%;
     height: auto;
@@ -280,16 +282,9 @@ h2{
 }
 
 /*visitas educativas*/
-#visitasEducativas{
-    background-color: #105C57;
-}
+
 
 /*contacto*/
-#Contacto{
-    background-color: #105C57;
-
-}
-
 
 /*footer*/
 
