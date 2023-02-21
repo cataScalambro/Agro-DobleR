@@ -55,22 +55,20 @@ body{
 }
 
 .contenedor{
-    width: auto; 
-    max-width: auto;
-    height: auto;
+    width: 100%; 
+    height: 530px;
     position: relative;
     display: flex;
-    
 }
 
 h1{
     font-size: 65px;
     width: 100%;
     position: absolute;
-    color: #936639;
+    color: #754e28;
     top: 2.5%;
     text-shadow: 5px 8px 8px #582f0e ;
-    -webkit-text-stroke: 0.5px #582f0e;
+    -webkit-text-stroke: 0.8px #582f0e;
     text-align: center;
 }
 
@@ -92,7 +90,7 @@ h1{
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    margin: 10px;
 }
 h2{
     font-family: 'Roboto', sans-serif;
@@ -102,7 +100,7 @@ h2{
     font-size: 35px;
     width: auto;
     color: #386641;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     animation-name: animacionH2;
@@ -202,74 +200,65 @@ h2{
     transform: scale(1.15, 1.15);
 }
 
-
 /*main tambo*/
 
-.contenedor-tambo{
-    width: 100% ;
-    height: 275px;
-    position: relative;
-    display: flex;
-}
-.contenedor-tambo img{
-    width: 100%;
-    height: 100%;
-}
-.contenedor-tambo h1{
-    font-size: 50px;
-    font-family: 'Segoe UI', sans-serif;
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    color: #9E7B34;
-    text-shadow: 5px 8px 12px black ;
-    top: 2.5%;
-    text-align: center;
-}
-.contenedor3{
-    width: 100%;
-    height: auto;
+.caja-tambo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 20px;
-    justify-content: space-evenly;
-
-}
-.secciones-tambo h4{
-    color: bisque;
-    font-size: 20px;
-    padding: 10px;
-    margin: 20px;
-    letter-spacing: 1px;
-    font-family: 'Segoe UI', sans-serif;
-    font-weight: bolder;
-    box-shadow: 5px 8px 12px black;
-    background-color: #A8825C;
-    border-radius: 10px;
-    height: fit-content;
-    width: fit-content;
-    
-}
-.secciones-tambo p{
-    font-size: 20px;
-    color: bisque;
-    padding: 20px;
-    margin: 15px;
-    width: 250px;
-    font-family: 'Segoe UI', sans-serif;
-    text-align: justify;
-
-}
-.secciones-tambo img{
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    margin: 20px;
     align-content: center;
-    padding-left: 30px;
+}
+.secciones-tambo{
+    margin: 0px 30px;
+}
+.subcaja-secciones-tambo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subcaja-secciones-tambo img{
+    margin: 10px !important;
 }
 
+.subcaja-secciones-tambo p{
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    padding: 0;
+}
+h5{
+    color: #dad7cd;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    letter-spacing: 3px;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    text-align: left;
+}
+.subcaja-proyectos-tambo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subcaja-proyectos-tambo img{
+    margin: 10px !important;
+}
+
+.subcaja-proyectos-tambo p{
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    padding: 0;
+}
 
 /*main Agricultura*/
 
@@ -298,6 +287,7 @@ h4{
     color:  #386641;
     font-size: 25px;
     padding: 10px;
+    margin-top: 10px;
     letter-spacing: 1px;
     font-weight: bolder;
     box-shadow: 5px 8px 12px black;
@@ -432,6 +422,9 @@ h3{
         font-size: 25px;
     }
     
+    .contenedor{
+        height: 100%;
+    }
     .contenedor p{
         font-size: 18px;
         width: 90%;
@@ -466,4 +459,5 @@ h3{
     .contenedor-historia img:hover{
         scale: 0.5;
     }
+
 }
