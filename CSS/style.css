@@ -211,8 +211,9 @@ h2{
 
 .caja-tambo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .secciones-tambo{
@@ -222,9 +223,9 @@ h2{
 .subcaja-secciones-tambo{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    justify-items: center;
+    align-items: center;
+    padding: 20px 5px;
 }
 
 .subcaja-secciones-tambo img{
@@ -255,10 +256,10 @@ h5{
 
 .subcaja-proyectos-tambo{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
-    justify-items: center;
+    align-items: center;
+    padding: 20px 5px;
 }
 
 .subcaja-proyectos-tambo img{
@@ -449,13 +450,16 @@ h3{
     }
     
     .contenedor{
-        height: 100%;
+        height: auto;
+        margin-bottom: 20px;
     }
 
     .contenedor p{
         font-size: 18px;
-        width: 90%;
+        width: 95%;
+        text-align: center;
         top: 100%;   
+        
     }
 
     .contenedor-negocios{
@@ -491,4 +495,11 @@ h3{
     .contenedor-historia img:hover{
         scale: 0.5;
     }
+    .subcaja-secciones-tambo{
+        flex-wrap: wrap;
+    }
+    .subcaja-proyectos-tambo{
+        flex-wrap: wrap;
+    }
 }
+
