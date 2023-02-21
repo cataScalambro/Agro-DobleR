@@ -9,23 +9,25 @@
 header{
     height: auto; 
     width: 100%;
-
 }
 
 #Encabezado{
-    background-color: white !important;
-    
+    background-color: white !important;  
 }
+
 #navbarNavDropdown{
     justify-content: flex-end !important;
 }
+
 .navbar-brand{
     margin: 0 !important;
 }
+
 .container-fluid{
     padding: 0% !important;
     width: 90%;
 }
+
 .logo{ 
     width: auto;
     height: 60px;
@@ -147,10 +149,12 @@ h2{
     flex-wrap: wrap !important;
     margin-bottom: 20px;
 }
+
 .contenedor-historia img{
     width: 230px !important;
     height: 230px !important;
 }
+
 .contenedor-historia img:hover{
     transform: rotate(5deg);
     scale: 1.1;
@@ -172,9 +176,9 @@ h2{
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 .img-thumbnail{
     width: 500px !important;
     height: 333px !important;
@@ -195,6 +199,7 @@ h2{
     border-radius: 10px;
     transition: ease 1s;
 }
+
 .link-negocios:hover{
     cursor: pointer;
     color: white;
@@ -208,17 +213,20 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
 }
+
 .secciones-tambo{
     margin: 0px 30px;
 }
+
 .subcaja-secciones-tambo{
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
 }
+
 .subcaja-secciones-tambo img{
     margin: 10px !important;
 }
@@ -231,9 +239,10 @@ h2{
     text-align: justify;
     padding: 0;
 }
+
 h5{
     color: #dad7cd;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: oblique;
     letter-spacing: 3px;
@@ -243,12 +252,15 @@ h5{
     padding-left: 60px;
     text-align: left;
 }
+
 .subcaja-proyectos-tambo{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
 }
+
 .subcaja-proyectos-tambo img{
     margin: 10px !important;
 }
@@ -256,9 +268,8 @@ h5{
 .subcaja-proyectos-tambo p{
     font-size: 22px;
     color: white;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    text-align: justify;
     padding: 0;
 }
 
@@ -440,6 +451,7 @@ h3{
     .contenedor{
         height: 100%;
     }
+
     .contenedor p{
         font-size: 18px;
         width: 90%;
@@ -452,27 +464,31 @@ h3{
         width: fit-content;
         margin: 10%;
     }
+
     .contenedor-cultivos{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 90%;
         grid-row-gap: 20px;
     }
+
     .caja-bpas{
         flex-direction: column;
         align-items: center;
         justify-items: center;
     }
+
     .caja-bpas img{
         padding-top: 10px;
         width: 95%;
         height: 100%;
-}
+    }
+
     .caja-bpas p{
         width: 100%;
-}
+    }
+
     .contenedor-historia img:hover{
         scale: 0.5;
-}
-
+    }
 }
