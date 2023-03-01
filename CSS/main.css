@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+header {
+  height: auto;
+  width: 100%; }
+  header #encabezado {
+    background-color: white !important; }
+    header #encabezado .container-fluid {
+      padding: 0% !important;
+      width: 95%; }
+      header #encabezado .container-fluid #navbarNavDropdown {
+        justify-content: flex-end !important; }
+        header #encabezado .container-fluid #navbarNavDropdown ul li a {
+          color: #093f3c !important;
+          text-transform: uppercase !important;
+          letter-spacing: 0.5px !important;
+          justify-content: flex-end !important; }
+          header #encabezado .container-fluid #navbarNavDropdown ul li a:hover {
+            color: #549191 !important;
+            font-weight: bold !important; }
+      header #encabezado .container-fluid .navbar-brand {
+        margin: 0 !important; }
+      header #encabezado .container-fluid .logo {
+        width: auto;
+        height: 60px;
+        padding-left: 5%; }
