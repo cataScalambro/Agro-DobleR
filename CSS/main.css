@@ -2,6 +2,207 @@
   margin: 0%;
   padding: 0%; }
 
+/* Header */
+/* Header */
+header {
+  height: auto;
+  width: 100%; }
+  header #encabezado {
+    background-color: white !important; }
+    header #encabezado .container-fluid {
+      padding: 0% !important;
+      width: 95%; }
+      header #encabezado .container-fluid #navbarNavDropdown {
+        justify-content: flex-end !important; }
+        header #encabezado .container-fluid #navbarNavDropdown ul li a {
+          color: #093f3c !important;
+          text-transform: uppercase !important;
+          letter-spacing: 0.5px !important;
+          justify-content: flex-end !important; }
+          header #encabezado .container-fluid #navbarNavDropdown ul li a:hover {
+            color: #549191 !important;
+            font-weight: bold !important; }
+      header #encabezado .container-fluid .navbar-brand {
+        margin: 0 !important; }
+      header #encabezado .container-fluid .logo {
+        width: auto;
+        height: 60px;
+        padding-left: 5%; }
+
+/* Index */
+#inicio {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #15362A; }
+  #inicio .contenedor {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    display: flex; }
+    #inicio .contenedor h1 {
+      font-size: 65px;
+      width: 100%;
+      position: absolute;
+      color: #754e28;
+      top: 2.5%;
+      text-shadow: 5px 8px 8px #582f0e;
+      -webkit-text-stroke: 0.8px #582f0e;
+      text-align: center; }
+    #inicio .contenedor p {
+      position: absolute;
+      color: #936639;
+      text-transform: uppercase;
+      width: 100%;
+      height: auto;
+      font-size: 30px;
+      top: 21%;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400; }
+  #inicio .contenedor2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px; }
+    #inicio .contenedor2 h2 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      letter-spacing: 4px;
+      font-size: 35px;
+      width: auto;
+      color: #386641;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      animation-name: animacionH2;
+      animation-duration: 4s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-duration: alternate;
+      animation-delay: 2s;
+      /* h2 cambia de color y vuelve al original, crecimiento y mayor letter spacing */ }
+      #inicio .contenedor2 h2 .texto-negrita {
+        font-weight: bold; }
+
+@keyframes animacionH2 {
+  0% {
+    letter-spacing: 4px;
+    color: #386641;
+    width: 100%; }
+  50% {
+    letter-spacing: 8px;
+    color: #adc178;
+    transform: scale(1.5);
+    width: 100%; }
+  100% {
+    letter-spacing: 4px;
+    color: #386641;
+    width: 100%; } }
+    #inicio .contenedor2 p {
+      font-size: 20px;
+      color: #dad7cd;
+      padding: 10px 50px;
+      text-align: justify; }
+    #inicio .contenedor2 div {
+      display: flex;
+      justify-content: center !important;
+      flex-wrap: wrap !important;
+      margin-bottom: 20px; }
+      #inicio .contenedor2 div img {
+        width: 230px !important;
+        height: 230px !important; }
+        #inicio .contenedor2 div img:hover {
+          transform: rotate(5deg);
+          scale: 1.1; }
+  #inicio .contenedor3 {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    overflow: hidden; }
+    #inicio .contenedor3 h2 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      letter-spacing: 4px;
+      font-size: 35px;
+      width: 80%;
+      color: #386641;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      animation-name: animacionH2;
+      animation-duration: 4s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-duration: alternate;
+      animation-delay: 2s;
+      overflow: hidden;
+      /* h2 cambia de color y vuelve al original, crecimiento y mayor letter spacing */ }
+      #inicio .contenedor3 h2 .texto-negrita {
+        font-weight: bold; }
+
+@keyframes animacionH2 {
+  0% {
+    letter-spacing: 4px;
+    color: #386641; }
+  50% {
+    letter-spacing: 8px;
+    color: #adc178;
+    transform: scale(1.5); }
+  100% {
+    letter-spacing: 4px;
+    color: #386641; } }
+    #inicio .contenedor3 p {
+      font-size: 20px;
+      color: #dad7cd;
+      padding: 10px 50px;
+      text-align: justify; }
+    #inicio .contenedor3 div {
+      width: auto;
+      height: auto;
+      margin: 2% 4%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 20px;
+      justify-items: center;
+      align-items: center; }
+      #inicio .contenedor3 div div {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center; }
+        #inicio .contenedor3 div div img {
+          width: 500px !important;
+          height: 333px !important; }
+        #inicio .contenedor3 div div a {
+          font-family: 'Roboto' sans-serif;
+          text-decoration: none;
+          position: absolute;
+          z-index: 1;
+          color: #386641;
+          font-size: 20px;
+          padding: 10px;
+          letter-spacing: 1px;
+          font-weight: bolder;
+          box-shadow: 5px 8px 12px black;
+          background-color: white;
+          border-radius: 10px;
+          transition: ease 1s; }
+          #inicio .contenedor3 div div a:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #386641;
+            transform: scale(1.15, 1.15); }
+
+/* Footer */
+/* Header */
 header {
   height: auto;
   width: 100%; }

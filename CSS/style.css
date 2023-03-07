@@ -47,13 +47,11 @@ nav ul li a:hover{
 }
 
 /*main*/
-body{
-    background-color:  #15362A;
-}
 
 #inicio{
     display: flex;
     flex-wrap: wrap;
+    background-color: #15362A ;
 }
 
 .contenedor{
