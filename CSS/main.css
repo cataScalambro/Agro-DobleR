@@ -91,7 +91,8 @@ header {
       letter-spacing: 4px;
       font-size: 35px;
       width: auto;
-      color: #386641;
+      height: auto;
+      color: #4e885a;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
@@ -109,7 +110,7 @@ header {
 @keyframes animacionH2 {
   0% {
     letter-spacing: 4px;
-    color: #386641;
+    color: #4e885a;
     width: 100%; }
   50% {
     letter-spacing: 8px;
@@ -119,8 +120,27 @@ header {
     overflow: hidden; }
   100% {
     letter-spacing: 4px;
-    color: #386641;
+    color: #4e885a;
     width: 100%; } }
+      @media only screen and (max-width: 576px) {
+        @keyframes animacionH2 {
+          0% {
+            letter-spacing: 4px;
+            color: #4e885a;
+            width: 100%;
+            height: auto; }
+          50% {
+            letter-spacing: 4px;
+            color: #adc178;
+            transform: scale(1.2);
+            width: 100%;
+            overflow: hidden;
+            height: auto; }
+          100% {
+            letter-spacing: 4px;
+            color: #4e885a;
+            width: 100%;
+            height: auto; } } }
     #inicio .contenedor2 p {
       font-size: 20px;
       color: #dad7cd;
@@ -440,6 +460,10 @@ footer {
     height: 530px;
     position: relative;
     display: flex; }
+    @media only screen and (max-width: 576px) {
+      #Tambo .contenedor {
+        height: auto;
+        margin-bottom: 20px; } }
     #Tambo .contenedor h1 {
       font-size: 65px;
       width: 100%;
@@ -449,6 +473,9 @@ footer {
       text-shadow: 5px 8px 8px #582f0e;
       -webkit-text-stroke: 0.8px #582f0e;
       text-align: center; }
+      @media only screen and (max-width: 576px) {
+        #Tambo .contenedor h1 {
+          font-size: 25px; } }
   #Tambo .contenedor2 {
     width: 100%;
     max-width: 100%;
@@ -468,7 +495,8 @@ footer {
     letter-spacing: 4px;
     font-size: 35px;
     width: auto;
-    color: #386641;
+    height: 100%;
+    color: #4e885a;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -484,7 +512,7 @@ footer {
 @keyframes animacionH2 {
   0% {
     letter-spacing: 4px;
-    color: #386641;
+    color: #4e885a;
     width: 100%; }
   50% {
     letter-spacing: 8px;
@@ -493,8 +521,27 @@ footer {
     width: 100%; }
   100% {
     letter-spacing: 4px;
-    color: #386641;
+    color: #4e885a;
     width: 100%; } }
+    @media only screen and (max-width: 576px) {
+      @keyframes animacionH2 {
+        0% {
+          letter-spacing: 4px;
+          color: #4e885a;
+          width: 100%;
+          height: auto; }
+        50% {
+          letter-spacing: 4px;
+          color: #adc178;
+          transform: scale(1.2);
+          width: 100%;
+          overflow: hidden;
+          height: auto; }
+        100% {
+          letter-spacing: 4px;
+          color: #4e885a;
+          width: 100%;
+          height: auto; } } }
   #Tambo .contenedor2 .secciones-tambo {
     display: flex;
     flex-direction: column;
