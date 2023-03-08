@@ -187,6 +187,10 @@
             color: $color-parrafos;
             padding: 10px 50px;
             text-align: justify; 
+            .texto-negrita{
+                font-weight: bold;
+                color: $color-background-caja;
+            }
         }
         div{
             width: 100%;
