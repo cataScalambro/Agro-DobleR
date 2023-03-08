@@ -26,7 +26,7 @@ header {
           letter-spacing: 0.5px !important;
           justify-content: flex-end !important; }
           header #encabezado .container-fluid #navbarNavDropdown ul li a:hover {
-            color: #549191 !important;
+            color: #205340 !important;
             font-weight: bold !important; }
       header #encabezado .container-fluid .navbar-brand {
         margin: 0 !important; }
@@ -38,7 +38,7 @@ header {
 #inicio {
   display: flex;
   flex-wrap: wrap;
-  background-color: #15362A; }
+  background-image: linear-gradient(to bottom, #205340, #010705); }
   #inicio .contenedor {
     width: 100%;
     height: 530px;
@@ -62,7 +62,7 @@ header {
           font-size: 25px; } }
     #inicio .contenedor p {
       position: absolute;
-      color: #936639;
+      color: #9e7c59;
       text-transform: uppercase;
       width: 100%;
       height: auto;
@@ -92,11 +92,10 @@ header {
       font-size: 35px;
       width: auto;
       height: auto;
-      color: #4e885a;
+      color: #5b9967;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
-      overflow: hidden;
       animation-name: animacionH2;
       animation-duration: 4s;
       animation-iteration-count: 1;
@@ -110,40 +109,36 @@ header {
 @keyframes animacionH2 {
   0% {
     letter-spacing: 4px;
-    color: #4e885a;
-    width: 100%; }
+    width: auto; }
   50% {
     letter-spacing: 8px;
-    color: #adc178;
+    color: #e0e4d7;
     transform: scale(1.5);
-    width: 100%;
-    overflow: hidden; }
+    max-width: 50%;
+    overflow-x: hidden; }
   100% {
     letter-spacing: 4px;
-    color: #4e885a;
-    width: 100%; } }
+    width: auto; } }
       @media only screen and (max-width: 576px) {
         @keyframes animacionH2 {
           0% {
             letter-spacing: 4px;
-            color: #4e885a;
             width: 100%;
             height: auto; }
           50% {
             letter-spacing: 4px;
-            color: #adc178;
+            color: #e0e4d7;
             transform: scale(1.2);
             width: 100%;
             overflow: hidden;
             height: auto; }
           100% {
             letter-spacing: 4px;
-            color: #4e885a;
             width: 100%;
             height: auto; } } }
     #inicio .contenedor2 p {
       font-size: 20px;
-      color: #dad7cd;
+      color: #9e7c59;
       padding: 10px 50px;
       text-align: justify; }
     #inicio .contenedor2 div {
@@ -177,7 +172,7 @@ header {
       letter-spacing: 4px;
       font-size: 35px;
       width: 80%;
-      color: #386641;
+      color: #5b9967;
       padding-top: 20px;
       padding-bottom: 20px;
       text-align: center;
@@ -194,18 +189,16 @@ header {
 
 @keyframes animacionH2 {
   0% {
-    letter-spacing: 4px;
-    color: #386641; }
+    letter-spacing: 4px; }
   50% {
     letter-spacing: 8px;
-    color: #adc178;
+    color: #e0e4d7;
     transform: scale(1.5); }
   100% {
-    letter-spacing: 4px;
-    color: #386641; } }
+    letter-spacing: 4px; } }
     #inicio .contenedor3 p {
       font-size: 20px;
-      color: #dad7cd;
+      color: #9e7c59;
       padding: 10px 50px;
       text-align: justify; }
     #inicio .contenedor3 div {
@@ -237,7 +230,7 @@ header {
           text-decoration: none;
           position: absolute;
           z-index: 1;
-          color: #386641;
+          color: #093f3c;
           font-size: 20px;
           padding: 10px;
           letter-spacing: 1px;
@@ -249,7 +242,7 @@ header {
           #inicio .contenedor3 div div a:hover {
             cursor: pointer;
             color: white;
-            background-color: #386641;
+            background-color: #093f3c;
             transform: scale(1.15, 1.15); }
 
 footer {
@@ -271,14 +264,14 @@ footer {
       height: auto;
       padding-right: 2%;
       padding-top: 1%;
-      color: #105C57;
+      color: #093f3c;
       font-size: 25px;
       font-weight: bold;
       letter-spacing: 0.5px;
       font-family: 'Segoe UI', sans-serif; }
     footer #piePagina section .titulo-menor {
       text-align: right;
-      color: #0D4F4B;
+      color: #205340;
       font-size: 16px;
       font-weight: bold;
       letter-spacing: 0.5px;
@@ -312,7 +305,7 @@ footer {
     text-align: center;
     font-family: 'Roboto' sans-serif;
     text-decoration: none;
-    color: #386641;
+    color: #205340;
     font-size: 25px;
     padding: 10px;
     letter-spacing: 1px;
@@ -342,7 +335,7 @@ footer {
   #inicio .contenedor2 .caja-bpas p {
     width: 50%;
     order: 2;
-    color: #15362A; }
+    color: #093f3c; }
     @media (max-width: 576px) {
       #inicio .contenedor2 .caja-bpas p {
         width: 100%; } }
@@ -363,7 +356,7 @@ footer {
   margin-top: 20px; }
   #Inicio .contenedor2 .seccion-contacto h5 {
     font-size: 35px;
-    color: white;
+    color: #9e7c59;
     padding: 30px; }
   #Inicio .contenedor2 .seccion-contacto .formulario-contacto {
     text-align: left;
@@ -404,7 +397,7 @@ footer {
   margin: auto; }
   #Inicio .contenedor2 .seccion-empresa1 h5 {
     padding-top: 5px;
-    color: #15362A;
+    color: #093f3c;
     font-size: 30px;
     font-weight: bold; }
     @media screen and (max-width: 576px) {
@@ -412,7 +405,7 @@ footer {
         text-align: center; } }
   #Inicio .contenedor2 .seccion-empresa1 p {
     font-size: 20px;
-    color: #15362A; }
+    color: #093f3c; }
 
 #Inicio .contenedor2 .seccion-contacto {
   display: flex;
@@ -421,7 +414,7 @@ footer {
   margin-top: 20px; }
   #Inicio .contenedor2 .seccion-contacto h5 {
     font-size: 35px;
-    color: white;
+    color: #9e7c59;
     padding: 30px; }
   #Inicio .contenedor2 .seccion-contacto .formulario-contacto {
     text-align: left;
@@ -454,7 +447,7 @@ footer {
 #Tambo {
   display: flex;
   flex-wrap: wrap;
-  background-color: #15362A; }
+  background-image: linear-gradient(to bottom, #205340, #010705); }
   #Tambo .contenedor {
     width: 100%;
     height: 530px;
@@ -485,7 +478,7 @@ footer {
     margin: 10px; }
     #Tambo .contenedor2 p {
       font-size: 20px;
-      color: #dad7cd;
+      color: #9e7c59;
       padding: 10px 50px;
       text-align: justify; }
   #Tambo .contenedor2 h2 {
@@ -496,7 +489,7 @@ footer {
     font-size: 35px;
     width: auto;
     height: 100%;
-    color: #4e885a;
+    color: #5b9967;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -512,34 +505,30 @@ footer {
 @keyframes animacionH2 {
   0% {
     letter-spacing: 4px;
-    color: #4e885a;
     width: 100%; }
   50% {
     letter-spacing: 8px;
-    color: #adc178;
+    color: #e0e4d7;
     transform: scale(1.5);
     width: 100%; }
   100% {
     letter-spacing: 4px;
-    color: #4e885a;
     width: 100%; } }
     @media only screen and (max-width: 576px) {
       @keyframes animacionH2 {
         0% {
           letter-spacing: 4px;
-          color: #4e885a;
           width: 100%;
           height: auto; }
         50% {
           letter-spacing: 4px;
-          color: #adc178;
+          color: #e0e4d7;
           transform: scale(1.2);
           width: 100%;
           overflow: hidden;
           height: auto; }
         100% {
           letter-spacing: 4px;
-          color: #4e885a;
           width: 100%;
           height: auto; } } }
   #Tambo .contenedor2 .secciones-tambo {
@@ -560,21 +549,25 @@ footer {
           flex-wrap: wrap; } }
       #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo p {
         font-size: 22px;
-        color: white;
+        color: #9e7c59;
         font-family: 'Roboto' sans-serif;
         font-weight: 200;
         text-align: justify;
-        padding: 0; }
+        padding: 0;
+        width: fit-content;
+        height: auto; }
       #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
         margin: 10px !important;
         max-width: 20% !important;
         height: fit-content !important; }
         @media screen and (max-width: 576px) {
           #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
-            width: auto !important;
-            height: auto !important; } }
+            max-width: 85% !important;
+            height: auto !important;
+            flex-direction: column;
+            align-items: center; } }
     #Tambo .contenedor2 .secciones-tambo h5 {
-      color: #dad7cd;
+      color: #baa692;
       font-family: 'Roboto', sans-serif;
       font-weight: 400;
       font-style: oblique;
@@ -596,10 +589,18 @@ footer {
       #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
         margin: 10px !important;
         max-width: 20% !important;
-        height: fit-content !important; }
+        height: auto !important; }
+        @media screen and (max-width: 576px) {
+          #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
+            max-width: 85% !important;
+            height: auto !important;
+            flex-direction: column;
+            align-items: center; } }
       #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo p {
         font-size: 22px;
-        color: white;
+        color: #9e7c59;
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
-        padding: 0; }
+        padding: 0;
+        width: fit-content;
+        height: auto; }

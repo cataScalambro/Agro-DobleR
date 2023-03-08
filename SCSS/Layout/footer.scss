@@ -1,7 +1,7 @@
 footer{
     width: auto;
     height: fit-content;
-    background-color:white;
+    background-color: $color-backgroundheader;
     #piePagina{
         width: 100%;
         height: auto;
@@ -19,7 +19,7 @@ footer{
                 height: auto;
                 padding-right: 2%;
                 padding-top: 1%;
-                color: #105C57;
+                color: $color-linkheader1;
                 font-size: 25px;
                 font-weight: bold;
                 letter-spacing: 0.5px;
@@ -27,7 +27,7 @@ footer{
             }
             .titulo-menor{
                 text-align: right;
-                color: #0D4F4B;
+                color: $Color-linkheader2;
                 font-size: 16px;
                 font-weight: bold;
                 letter-spacing: 0.5px;

@@ -1,7 +1,7 @@
 #Tambo{
     display: flex;
     flex-wrap: wrap;
-    background-color: #15362A;
+    background-image: linear-gradient(to bottom, $color-background1, $color-background2);
     .contenedor{
         width: 100%; 
         height: 530px;
@@ -15,10 +15,10 @@
             font-size: 65px;
             width: 100%;
             position: absolute;
-            color: #754e28;
+            color: $color-h1;
             top: 2.5%;
-            text-shadow: 5px 8px 8px #582f0e ;
-            -webkit-text-stroke: 0.8px #582f0e;
+            text-shadow: 5px 8px 8px $color-shadowh1;
+            -webkit-text-stroke: 0.8px $color-shadowh1;
             text-align: center;  
             @media only screen and (max-width:576px){
                 font-size: 25px;
@@ -34,7 +34,7 @@
         margin: 10px;
         p{
             font-size: 20px;
-            color: #dad7cd;
+            color: $color-parrafos;
             padding: 10px 50px;
             text-align: justify; 
         }
@@ -48,7 +48,7 @@
             font-size: 35px;
             width: auto;
             height: 100%;
-            color:  #4e885a;
+            color:  $Color-h2;
             padding-top: 20px;
             padding-bottom: 20px;
             text-align: center;
@@ -64,18 +64,16 @@
             @keyframes animacionH2{
                 0%{
                     letter-spacing: 4px;
-                    color:  #4e885a;
                     width: 100%;
                 }
                 50%{
                     letter-spacing: 8px;
-                    color: #adc178;
+                    color: $color-h2transicion;
                     transform: scale(1.5);
                     width: 100%;
                 }
                 100%{
                     letter-spacing: 4px;
-                    color:  #4e885a;
                     width: 100%;
                 }
             }
@@ -83,13 +81,12 @@
                 @keyframes animacionH2{
                     0%{
                         letter-spacing: 4px;
-                        color:  #4e885a;
                         width: 100%;
                         height: auto;
                     }
                     50%{
                         letter-spacing: 4px;
-                        color: #adc178;
+                        color: $color-h2transicion;
                         transform: scale(1.2);
                         width: 100%;
                         overflow: hidden;
@@ -97,7 +94,6 @@
                     }
                     100%{
                         letter-spacing: 4px;
-                        color:  #4e885a;
                         width: 100%;
                         height: auto;
                     }
@@ -122,24 +118,28 @@
                 }
                 p{
                     font-size: 22px;
-                    color: white;
+                    color: $color-parrafos;
                     font-family: 'Roboto' sans-serif;
                     font-weight: 200;
                     text-align: justify;
                     padding: 0;
+                    width: fit-content;
+                    height: auto;
                 }
                 img{
                     margin: 10px !important;
                     max-width: 20% !important;
                     height: fit-content !important;
                     @media screen and (max-width:576px){
-                        width: auto !important;
+                        max-width: 85% !important;
                         height: auto !important;
+                        flex-direction: column;
+                        align-items: center;
                     }
                 }
             }
             h5{
-                color: #dad7cd;
+                color: $color-titulos2;
                 font-family: 'Roboto', sans-serif;
                 font-weight: 400;
                 font-style: oblique;
@@ -162,14 +162,22 @@
                 img{
                     margin: 10px !important;
                     max-width: 20% !important;
-                    height: fit-content !important;
+                    height: auto !important;
+                    @media screen and (max-width:576px){
+                        max-width: 85% !important;
+                        height: auto !important;
+                        flex-direction: column;
+                        align-items: center;
+                    }
                 }
                 p{
                     font-size: 22px;
-                    color: white;
+                    color: $color-parrafos;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 200;
                     padding: 0;
+                    width: fit-content;
+                    height: auto;
                 }
             }    
         }

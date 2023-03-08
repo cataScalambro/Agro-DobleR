@@ -3,19 +3,19 @@ header{
     height: auto; 
     width: 100%;
     #encabezado{
-        background-color: white !important;
+        background-color: $color-backgroundheader !important;
         .container-fluid{
             padding: 0% !important;
             width: 95%;
             #navbarNavDropdown{
                 justify-content: flex-end !important;
                 ul li a{
-                    color: #093f3c !important;
+                    color: $color-linkheader1 !important;
                     text-transform: uppercase !important;
                     letter-spacing: 0.5px !important;
                     justify-content: flex-end !important;
                     &:hover{
-                        color: #549191 !important;
+                        color: $Color-linkheader2 !important;
                         font-weight: bold !important;
                     }
                 }      
