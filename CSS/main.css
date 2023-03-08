@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 * {
   margin: 0%;
   padding: 0%; }
@@ -482,7 +482,7 @@ footer {
     margin: 10px; }
     #Tambo .contenedor2 p {
       font-size: 20px;
-      color: #9e7c59;
+      color: #b6ad90;
       padding: 10px 50px;
       text-align: justify; }
   #Tambo .contenedor2 h2 {
@@ -558,12 +558,14 @@ footer {
         font-weight: 300;
         text-align: justify;
         padding: 0;
-        width: fit-content;
-        height: auto; }
+        width: auto;
+        height: auto;
+        padding-right: 15px; }
       #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
         margin: 10px !important;
         max-width: 20% !important;
-        height: fit-content !important; }
+        height: fit-content !important;
+        padding: 10px !important; }
         @media screen and (max-width: 576px) {
           #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
             max-width: 85% !important;
@@ -593,7 +595,8 @@ footer {
       #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
         margin: 10px !important;
         max-width: 20% !important;
-        height: auto !important; }
+        height: auto !important;
+        margin: 10px !important; }
         @media screen and (max-width: 576px) {
           #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
             max-width: 85% !important;
@@ -607,4 +610,5 @@ footer {
         font-weight: 300;
         padding: 0;
         width: fit-content;
-        height: auto; }
+        height: auto;
+        padding-left: 10px; }

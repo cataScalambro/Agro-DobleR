@@ -1,7 +1,7 @@
 {
   "name": "preentrega1-scalambro",
   "version": "1.0.0",
-  "description": "Primer proyecto html y css",
+  "description": "Primer proyecto html y css. Pagina web de empresa agropecuaria Doble R SRL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
