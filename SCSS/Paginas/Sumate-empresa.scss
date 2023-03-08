@@ -1,0 +1,70 @@
+#Inicio{
+    .contenedor2{
+        .seccion-empresa1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: #b6ad90;
+            border-radius: 10px;
+            width: 90%;
+            height: fit-content;
+            margin: auto;
+            h5{
+                padding-top: 5px;
+                color: #15362A;
+                font-size: 30px;
+                font-weight: bold;
+                @media screen and (max-width:576px){
+                    text-align: center;
+                }
+            }
+            p{
+                font-size: 20px;
+                color: #15362A;
+            }
+        }
+        .seccion-contacto{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            h5{
+                font-size: 35px;
+                color: white;
+                padding: 30px;
+            }
+            .formulario-contacto{
+                text-align: left;
+                width: auto;
+                height: auto;
+                margin: 0px 20px;
+                color: #b6ad90;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+                font-family: 'Segoe UI', sans-serif;
+                display: flex;
+                flex-direction: column;  
+                input{
+                    width: 75%;
+                    @media screen and (max-width:576px){
+                        width: 100%;
+                    }
+                }
+                label{
+                    padding: 15px 0px;
+                }
+                textarea{
+                    height: 60px;
+                    width: 75%;
+                    @media screen and (max-width:576px){
+                        width: 100%;
+                    }
+                }
+                button{
+                    width: 20% !important;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

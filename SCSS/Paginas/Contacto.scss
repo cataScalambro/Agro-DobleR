@@ -1,0 +1,47 @@
+#Inicio{
+    .contenedor2{
+        .seccion-contacto{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            h5{
+                font-size: 35px;
+                color: white;
+                padding: 30px;
+            }
+            .formulario-contacto{
+                text-align: left;
+                width: auto;
+                height: auto;
+                margin: 0px 20px;
+                color: #b6ad90;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+                font-family: 'Segoe UI', sans-serif;
+                display: flex;
+                flex-direction: column;  
+                input{
+                    width: 75%;
+                    @media screen and (max-width:576px){
+                        width: 100%;
+                    }
+                }
+                label{
+                    padding: 15px 0px;
+                }
+                textarea{
+                    height: 60px;
+                    width: 75%;
+                    @media screen and (max-width:576px){
+                        width: 100%;
+                    }
+                }
+                button{
+                    width: 20% !important;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

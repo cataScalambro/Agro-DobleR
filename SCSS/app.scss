@@ -2,18 +2,18 @@
     margin: 0%;
     padding: 0%;
 }
+//General
+@import "./General/Tipografia.scss";
+@import"./General/Colores.scss";
 
 //Layout
-/* Header */
 @import "./Layout/header.scss";
-
-/* Index */
 @import "./Layout/Index.scss";
-
-/* Footer */
-@import "./Layout/header.scss";
+@import "./Layout/footer.scss";
 
 //Paginas
-
-
+@import "./Paginas/Agricultura.scss";
+@import "./Paginas/Contacto.scss";
+@import "./Paginas/Sumate-empresa.scss";
+@import "./Paginas/Tambo.scss";
 
