@@ -289,6 +289,10 @@ footer {
       padding-right: 2%;
       margin-bottom: 0; }
 
+#inicio .contenedor2 p .texto-negrita {
+  font-weight: bold;
+  color: #b6ad90; }
+
 #inicio .contenedor2 .contenedor-cultivos {
   width: 95%;
   height: max-content;
