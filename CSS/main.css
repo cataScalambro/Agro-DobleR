@@ -291,7 +291,7 @@ footer {
 
 #inicio .contenedor2 .contenedor-cultivos {
   width: 95%;
-  height: 95%;
+  height: max-content;
   margin: 2% 4%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -303,24 +303,34 @@ footer {
       grid-template-rows: 1fr 1fr 1fr 1fr;
       width: 90%;
       grid-row-gap: 20px; } }
-  #inicio .contenedor2 .contenedor-cultivos div h4 {
-    width: 90%;
-    text-align: center;
-    font-family: 'Roboto' sans-serif;
-    text-decoration: none;
-    color: #205340;
-    font-size: 25px;
-    padding: 10px;
-    letter-spacing: 1px;
-    font-weight: bolder;
-    box-shadow: 5px 8px 12px black;
-    background-color: white;
-    border-radius: 10px; }
-  #inicio .contenedor2 .contenedor-cultivos div img {
-    width: 200px !important;
-    height: 200px !important;
-    margin: auto !important;
-    display: block; }
+  #inicio .contenedor2 .contenedor-cultivos div {
+    display: flex;
+    max-height: max-content; }
+    #inicio .contenedor2 .contenedor-cultivos div h4 {
+      width: 90%;
+      height: fit-content;
+      text-align: center;
+      align-items: center;
+      font-family: 'Roboto' sans-serif;
+      text-decoration: none;
+      color: #205340;
+      font-size: 25px;
+      padding: 10px;
+      letter-spacing: 1px;
+      font-weight: bolder;
+      box-shadow: 5px 8px 12px black;
+      background-color: white;
+      border-radius: 10px; }
+    #inicio .contenedor2 .contenedor-cultivos div p {
+      text-align: center;
+      align-items: center; }
+    #inicio .contenedor2 .contenedor-cultivos div img {
+      width: 200px !important;
+      height: 200px !important;
+      margin: auto !important;
+      display: block;
+      animation: none !important;
+      align-items: flex-end !important; }
 
 #inicio .contenedor2 .caja-bpas {
   display: flex;

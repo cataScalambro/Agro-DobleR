@@ -2,7 +2,7 @@
     .contenedor2{
         .contenedor-cultivos{
             width: 95%;
-            height: 95%;
+            height: max-content;
             margin: 2% 4%;  
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -15,9 +15,13 @@
                 grid-row-gap: 20px;
             }
             div{
+                display: flex;
+                max-height: max-content;
                 h4{
                     width: 90%;
+                    height: fit-content;
                     text-align: center;
+                    align-items: center;
                     font-family: 'Roboto' sans-serif;
                     text-decoration: none;
                     color:  $color-background1;
@@ -29,11 +33,17 @@
                     background-color: $color-backgroundheader;
                     border-radius: 10px;
                 }
+                p{
+                    text-align: center;
+                    align-items: center;
+                }
                 img{
                 width: 200px !important;
                 height: 200px !important;
                 margin: auto !important;
                 display: block;
+                animation: none !important;
+                align-items: flex-end !important;
                 }
             }
         }
