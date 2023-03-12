@@ -139,23 +139,18 @@ header {
     #inicio .contenedor2 p {
       font-size: 20px;
       color: #9e7c59;
-      padding: 10px 50px;
-      text-align: justify; }
+      padding: 10px 50px; }
     #inicio .contenedor2 div {
       display: flex;
       justify-content: center !important;
       flex-wrap: wrap !important;
-      margin-bottom: 20px;
-      overflow: hidden !important; }
+      margin-bottom: 20px; }
       #inicio .contenedor2 div img {
         width: 230px !important;
         height: 230px !important; }
         #inicio .contenedor2 div img:hover {
           transform: rotate(5deg);
           scale: 1.1; }
-          @media only screen and (max-width: 576px) {
-            #inicio .contenedor2 div img:hover {
-              scale: 0.5; } }
   #inicio .contenedor3 {
     width: 100%;
     max-width: 100%;
@@ -199,8 +194,7 @@ header {
     #inicio .contenedor3 p {
       font-size: 20px;
       color: #9e7c59;
-      padding: 10px 50px;
-      text-align: justify; }
+      padding: 10px 50px; }
       #inicio .contenedor3 p .texto-negrita {
         font-weight: bold;
         color: #b6ad90; }
@@ -497,8 +491,7 @@ footer {
     #Tambo .contenedor2 p {
       font-size: 20px;
       color: #b6ad90;
-      padding: 10px 50px;
-      text-align: justify; }
+      padding: 10px 50px; }
   #Tambo .contenedor2 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -570,7 +563,6 @@ footer {
         color: #9e7c59;
         font-family: 'Roboto' sans-serif;
         font-weight: 300;
-        text-align: justify;
         padding: 0;
         width: auto;
         height: auto;
