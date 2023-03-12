@@ -200,7 +200,7 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr 1fr 1fr;
                 width: fit-content;
-                margin: 10%;
+                height: fit-content;
             }
             div{
                 display: flex;
@@ -210,6 +210,10 @@
                 img{
                     width: 500px !important;
                     height: 333px !important;
+                    @media only screen and (max-width:576px){
+                    width: auto !important;
+                    height: auto !important;
+                    }
                 }
                 a{
                     font-family: 'Roboto' sans-serif;
