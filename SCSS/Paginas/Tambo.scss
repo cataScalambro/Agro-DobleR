@@ -36,9 +36,10 @@
             font-size: 20px;
             color: $color-background-caja;
             padding: 10px 50px;
+            @media only screen and (max-width:576px){
+                padding: 10px 15px;
+            }
         }
-    } 
-    .contenedor2{
         h2{
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
@@ -104,14 +105,18 @@
             flex-direction: column;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin: 0px 30px;
-            width: 90%;
+            margin: 0px 20px;
+            width: 95%;
+            @media screen and (max-width:576px){
+                margin: 0px 10px;   
+                justify-content: center;
+            }
             .subcaja-secciones-tambo{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
                 align-items: center;
-                padding: 20px 5px;
+                padding: 10px 5px;
                 @media screen and (max-width:576px){
                     flex-wrap: wrap; 
                 }
@@ -124,6 +129,9 @@
                     width: auto;
                     height: auto;
                     padding-right: 15px;
+                    @media screen and (max-width:576px){
+                        padding-right: none;
+                    }   
                 }
                 img{
                     margin: 10px !important;
@@ -134,7 +142,7 @@
                         max-width: 85% !important;
                         height: auto !important;
                         flex-direction: column;
-                        align-items: center;
+                        align-items: center !important;
                     }
                 }
             }

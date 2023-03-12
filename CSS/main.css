@@ -140,6 +140,9 @@ header {
       font-size: 20px;
       color: #9e7c59;
       padding: 10px 50px; }
+      @media only screen and (max-width: 576px) {
+        #inicio .contenedor2 p {
+          padding: 10px 15px; } }
     #inicio .contenedor2 div {
       display: flex;
       justify-content: center !important;
@@ -198,6 +201,9 @@ header {
       #inicio .contenedor3 p .texto-negrita {
         font-weight: bold;
         color: #b6ad90; }
+      @media only screen and (max-width: 576px) {
+        #inicio .contenedor3 p {
+          padding: 10px 15px; } }
     #inicio .contenedor3 div {
       width: 100%;
       height: auto;
@@ -496,26 +502,29 @@ footer {
       font-size: 20px;
       color: #b6ad90;
       padding: 10px 50px; }
-  #Tambo .contenedor2 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: 4px;
-    font-size: 35px;
-    width: auto;
-    height: 100%;
-    color: #5b9967;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    animation-name: animacionH2;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    animation-duration: alternate;
-    animation-delay: 2s; }
-    #Tambo .contenedor2 h2 .texto-negrita {
-      font-weight: bold; }
+      @media only screen and (max-width: 576px) {
+        #Tambo .contenedor2 p {
+          padding: 10px 15px; } }
+    #Tambo .contenedor2 h2 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      letter-spacing: 4px;
+      font-size: 35px;
+      width: auto;
+      height: 100%;
+      color: #5b9967;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      animation-name: animacionH2;
+      animation-duration: 4s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-duration: alternate;
+      animation-delay: 2s; }
+      #Tambo .contenedor2 h2 .texto-negrita {
+        font-weight: bold; }
 
 @keyframes animacionH2 {
   0% {
@@ -529,96 +538,103 @@ footer {
   100% {
     letter-spacing: 4px;
     width: 100%; } }
-    @media only screen and (max-width: 576px) {
-      @keyframes animacionH2 {
-        0% {
-          letter-spacing: 4px;
-          width: 100%;
-          height: auto; }
-        50% {
-          letter-spacing: 4px;
-          color: #e0e4d7;
-          transform: scale(1.2);
-          width: 100%;
-          overflow: hidden;
-          height: auto; }
-        100% {
-          letter-spacing: 4px;
-          width: 100%;
-          height: auto; } } }
-  #Tambo .contenedor2 .secciones-tambo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0px 30px;
-    width: 90%; }
-    #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo {
+      @media only screen and (max-width: 576px) {
+        @keyframes animacionH2 {
+          0% {
+            letter-spacing: 4px;
+            width: 100%;
+            height: auto; }
+          50% {
+            letter-spacing: 4px;
+            color: #e0e4d7;
+            transform: scale(1.2);
+            width: 100%;
+            overflow: hidden;
+            height: auto; }
+          100% {
+            letter-spacing: 4px;
+            width: 100%;
+            height: auto; } } }
+    #Tambo .contenedor2 .secciones-tambo {
       display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 20px 5px; }
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0px 20px;
+      width: 95%; }
       @media screen and (max-width: 576px) {
-        #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo {
-          flex-wrap: wrap; } }
-      #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo p {
-        font-size: 22px;
-        color: #9e7c59;
-        font-family: 'Roboto' sans-serif;
-        font-weight: 300;
-        padding: 0;
-        width: auto;
-        height: auto;
-        padding-right: 15px; }
-      #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
-        margin: 10px !important;
-        max-width: 20% !important;
-        height: fit-content !important;
-        padding: 10px !important; }
+        #Tambo .contenedor2 .secciones-tambo {
+          margin: 0px 10px;
+          justify-content: center; } }
+      #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 5px; }
         @media screen and (max-width: 576px) {
-          #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
-            max-width: 85% !important;
-            height: auto !important;
-            flex-direction: column;
-            align-items: center; } }
-    #Tambo .contenedor2 .secciones-tambo h5 {
-      color: #baa692;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 400;
-      font-style: oblique;
-      letter-spacing: 3px;
-      font-size: 45px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 60px;
-      text-align: left; }
-    #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo {
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 20px 5px; }
-      @media screen and (max-width: 576px) {
-        #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo {
-          flex-wrap: wrap; } }
-      #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
-        margin: 10px !important;
-        max-width: 20% !important;
-        height: auto !important;
-        margin: 10px !important; }
-        @media screen and (max-width: 576px) {
-          #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
-            max-width: 85% !important;
-            height: auto !important;
-            flex-direction: column;
-            align-items: center; } }
-      #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo p {
-        font-size: 22px;
-        color: #9e7c59;
+          #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo {
+            flex-wrap: wrap; } }
+        #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo p {
+          font-size: 22px;
+          color: #9e7c59;
+          font-family: 'Roboto' sans-serif;
+          font-weight: 300;
+          padding: 0;
+          width: auto;
+          height: auto;
+          padding-right: 15px; }
+          @media screen and (max-width: 576px) {
+            #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo p {
+              padding-right: none; } }
+        #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
+          margin: 10px !important;
+          max-width: 20% !important;
+          height: fit-content !important;
+          padding: 10px !important; }
+          @media screen and (max-width: 576px) {
+            #Tambo .contenedor2 .secciones-tambo .subcaja-secciones-tambo img {
+              max-width: 85% !important;
+              height: auto !important;
+              flex-direction: column;
+              align-items: center !important; } }
+      #Tambo .contenedor2 .secciones-tambo h5 {
+        color: #baa692;
         font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        padding: 0;
-        width: fit-content;
-        height: auto;
-        padding-left: 10px; }
+        font-weight: 400;
+        font-style: oblique;
+        letter-spacing: 3px;
+        font-size: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        text-align: left; }
+      #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px 5px; }
+        @media screen and (max-width: 576px) {
+          #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo {
+            flex-wrap: wrap; } }
+        #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
+          margin: 10px !important;
+          max-width: 20% !important;
+          height: auto !important;
+          margin: 10px !important; }
+          @media screen and (max-width: 576px) {
+            #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo img {
+              max-width: 85% !important;
+              height: auto !important;
+              flex-direction: column;
+              align-items: center; } }
+        #Tambo .contenedor2 .secciones-tambo .subcaja-proyectos-tambo p {
+          font-size: 22px;
+          color: #9e7c59;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          padding: 0;
+          width: fit-content;
+          height: auto;
+          padding-left: 10px; }
