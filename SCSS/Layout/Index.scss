@@ -62,54 +62,8 @@
             padding-top: 20px;
             padding-bottom: 20px;
             text-align: center;
-            animation-name: animacionH2;
-            animation-duration: 4s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-            animation-duration: alternate;
-            animation-delay: 2s;
             .texto-negrita{
                 font-weight: bold;
-            }
-            /* h2 cambia de color y vuelve al original, crecimiento y mayor letter spacing */
-            @keyframes animacionH2{
-                0%{
-                    letter-spacing: 4px;
-                    width: auto;
-                }
-                50%{
-                    letter-spacing: 8px;
-                    color: $color-h2transicion;
-                    transform: scale(1.5);
-                    max-width: 50%;
-                    overflow-x: hidden;
-                }
-                100%{
-                    letter-spacing: 4px;
-                    width: auto;
-                }
-            }
-            @media only screen and (max-width:576px){
-                @keyframes animacionH2{
-                    0%{
-                        letter-spacing: 4px;
-                        width: 100%;
-                        height: auto;
-                    }
-                    50%{
-                        letter-spacing: 4px;
-                        color: $color-h2transicion;
-                        transform: scale(1.2);
-                        width: 100%;
-                        overflow: hidden;
-                        height: auto;
-                    }
-                    100%{
-                        letter-spacing: 4px;
-                        width: 100%;
-                        height: auto;
-                    }
-                }
             }
         }
         p{
@@ -155,29 +109,8 @@
             padding-top: 20px;
             padding-bottom: 20px;
             text-align: center;
-            overflow: hidden;
-            animation-name: animacionH2;
-            animation-duration: 4s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-            animation-duration: alternate;
-            animation-delay: 2s;
             .texto-negrita{
                 font-weight: bold;
-            }
-            /* h2 cambia de color y vuelve al original, crecimiento y mayor letter spacing */
-            @keyframes animacionH2{
-                0%{
-                    letter-spacing: 4px;
-                }
-                50%{
-                    letter-spacing: 8px;
-                    color: $color-h2transicion;
-                    transform: scale(1.5);
-                }
-                100%{
-                    letter-spacing: 4px;
-                }
             }
         }
         p{

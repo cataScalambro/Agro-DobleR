@@ -95,47 +95,9 @@ header {
       color: #5b9967;
       padding-top: 20px;
       padding-bottom: 20px;
-      text-align: center;
-      animation-name: animacionH2;
-      animation-duration: 4s;
-      animation-iteration-count: 1;
-      animation-timing-function: ease;
-      animation-duration: alternate;
-      animation-delay: 2s;
-      /* h2 cambia de color y vuelve al original, crecimiento y mayor letter spacing */ }
+      text-align: center; }
       #inicio .contenedor2 h2 .texto-negrita {
         font-weight: bold; }
-
-@keyframes animacionH2 {
-  0% {
-    letter-spacing: 4px;
-    width: auto; }
-  50% {
-    letter-spacing: 8px;
-    color: #e0e4d7;
-    transform: scale(1.5);
-    max-width: 50%;
-    overflow-x: hidden; }
-  100% {
-    letter-spacing: 4px;
-    width: auto; } }
-      @media only screen and (max-width: 576px) {
-        @keyframes animacionH2 {
-          0% {
-            letter-spacing: 4px;
-            width: 100%;
-            height: auto; }
-          50% {
-            letter-spacing: 4px;
-            color: #e0e4d7;
-            transform: scale(1.2);
-            width: 100%;
-            overflow: hidden;
-            height: auto; }
-          100% {
-            letter-spacing: 4px;
-            width: 100%;
-            height: auto; } } }
     #inicio .contenedor2 p {
       font-size: 20px;
       color: #9e7c59;
@@ -173,27 +135,9 @@ header {
       color: #5b9967;
       padding-top: 20px;
       padding-bottom: 20px;
-      text-align: center;
-      overflow: hidden;
-      animation-name: animacionH2;
-      animation-duration: 4s;
-      animation-iteration-count: 1;
-      animation-timing-function: ease;
-      animation-duration: alternate;
-      animation-delay: 2s;
-      /* h2 cambia de color y vuelve al original, crecimiento y mayor letter spacing */ }
+      text-align: center; }
       #inicio .contenedor3 h2 .texto-negrita {
         font-weight: bold; }
-
-@keyframes animacionH2 {
-  0% {
-    letter-spacing: 4px; }
-  50% {
-    letter-spacing: 8px;
-    color: #e0e4d7;
-    transform: scale(1.5); }
-  100% {
-    letter-spacing: 4px; } }
     #inicio .contenedor3 p {
       font-size: 20px;
       color: #9e7c59;
@@ -516,45 +460,9 @@ footer {
       color: #5b9967;
       padding-top: 20px;
       padding-bottom: 20px;
-      text-align: center;
-      animation-name: animacionH2;
-      animation-duration: 4s;
-      animation-iteration-count: 1;
-      animation-timing-function: ease;
-      animation-duration: alternate;
-      animation-delay: 2s; }
+      text-align: center; }
       #Tambo .contenedor2 h2 .texto-negrita {
         font-weight: bold; }
-
-@keyframes animacionH2 {
-  0% {
-    letter-spacing: 4px;
-    width: 100%; }
-  50% {
-    letter-spacing: 8px;
-    color: #e0e4d7;
-    transform: scale(1.5);
-    width: 100%; }
-  100% {
-    letter-spacing: 4px;
-    width: 100%; } }
-      @media only screen and (max-width: 576px) {
-        @keyframes animacionH2 {
-          0% {
-            letter-spacing: 4px;
-            width: 100%;
-            height: auto; }
-          50% {
-            letter-spacing: 4px;
-            color: #e0e4d7;
-            transform: scale(1.2);
-            width: 100%;
-            overflow: hidden;
-            height: auto; }
-          100% {
-            letter-spacing: 4px;
-            width: 100%;
-            height: auto; } } }
     #Tambo .contenedor2 .secciones-tambo {
       display: flex;
       flex-direction: column;
