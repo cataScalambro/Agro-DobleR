@@ -546,3 +546,17 @@ footer {
           width: fit-content;
           height: auto;
           padding-left: 10px; }
+
+.imagen-visitas {
+  display: flex;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  margin-bottom: 20px; }
+  .imagen-visitas img {
+    width: 230px !important;
+    height: 230px !important;
+    padding: 5px !important;
+    border-radius: 10px !important; }
+    .imagen-visitas img:hover {
+      transform: rotate(5deg);
+      scale: 1.1; }
